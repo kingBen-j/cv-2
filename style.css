@@ -1,0 +1,103 @@
+/* --- RESET SIMPLE --- */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+@media (max-width: 600px){
+body {
+  background: #f5f5f5;
+  color: #333;
+  line-height: 1.6;
+}
+}
+
+
+.container {
+  max-width: 900px;
+  margin: 30px auto;
+  background: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+header {
+  text-align: center;
+  padding-bottom: 20px;
+  border-bottom: 2px solid #ddd;
+}
+
+header h1 {
+  font-size: 2.2rem;
+  margin-bottom: 5px;
+  color: #222;
+}
+
+header h2 {
+  font-size: 1.2rem;
+  font-weight: normal;
+  color: #777;
+}
+
+.section {
+  margin: 20px 0;
+}
+
+.section h3 {
+  font-size: 1.3rem;
+  margin-bottom: 10px;
+  color: #444;
+  border-left: 5px solid #4CAF50;
+  padding-left: 10px;
+}
+
+.info p, .skills ul, .experience article {
+  margin-bottom: 10px;
+}
+
+.skills ul {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.skills li {
+  background: #4CAF50;
+  color: #fff;
+  padding: 5px 10px;
+  border-radius: 5px;
+  font-size: 0.9rem;
+}
+
+.experience article {
+  margin-bottom: 15px;
+}
+
+.experience h4 {
+  font-size: 1rem;
+  color: #333;
+}
+
+.experience span {
+  font-size: 0.85rem;
+  color: #777;
+}
+
+footer {
+  text-align: center;
+  margin-top: 20px;
+  padding-top: 15px;
+  border-top: 2px solid #ddd;
+  font-size: 0.9rem;
+  color: #555;
+}
+
+/* --- RESPONSIVE --- */
+@media (max-width: 600px) {
+  header h1 { font-size: 1.6rem; }
+  .skills ul { flex-direction: column; }
+}
